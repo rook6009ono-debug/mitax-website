@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ミタックス ロゴマーク">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2540"/>
+      <stop offset="1" stop-color="#16487a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#f)"/>
+  <path d="M34 13C34 13 22 26 22 35.5a12 12 0 0 0 24 0C46 26 34 13 34 13Z" fill="#ffffff"/>
+  <path d="M10 30c4.4 1.9 7.2 1.9 10.6 0" stroke="#4faee0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M11 39c3.3 1.4 5.4 1.4 8.2 0" stroke="#4faee0" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="WORKS 05 写真プレースホルダー">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2540"/>
+      <stop offset="1" stop-color="#16487a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#4faee0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4faee0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2.5">
+    <path d="M0,640 C 240,560 420,740 660,650 C 900,560 1100,740 1340,650 C 1460,610 1540,650 1600,630"/>
+    <path d="M0,720 C 260,650 460,810 700,720 C 940,630 1140,810 1380,720 C 1480,690 1560,720 1600,705"/>
+    <path d="M0,560 C 220,500 400,640 640,560 C 880,480 1080,640 1320,560 C 1450,525 1540,555 1600,540"/>
+  </g>
+  <g fill="none" stroke="#4faee0" stroke-opacity="0.18" stroke-width="2.5">
+    <path d="M0,800 C 280,730 480,880 760,800 C 1020,725 1220,880 1480,800 C 1540,785 1580,795 1600,790"/>
+  </g>
+  <g transform="translate(800,430)">
+    <rect x="-78" y="-58" width="156" height="120" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="4"/>
+    <circle cx="-34" cy="-18" r="16" fill="#ffffff" fill-opacity="0.6"/>
+    <path d="M-66,52 L-12,4 L24,34 L60,-8 L78,52 Z" fill="#ffffff" fill-opacity="0.45"/>
+  </g>
+  <g text-anchor="middle" font-family="'Outfit','Helvetica Neue',Arial,sans-serif">
+    <text x="800" y="600" fill="#ffffff" fill-opacity="0.92" font-size="46" font-weight="700" letter-spacing="6">WORKS 05</text>
+    <text x="800" y="660" fill="#ffffff" fill-opacity="0.7" font-size="27" font-weight="400" font-family="'Noto Sans JP',sans-serif">施工実績 写真</text>
+    <text x="800" y="712" fill="#4faee0" fill-opacity="0.95" font-size="23" font-weight="500" letter-spacing="2">推奨 1200 × 900px</text>
+  </g>
+</svg>
