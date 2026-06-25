@@ -325,6 +325,24 @@ section[id], div[id].anchor { scroll-margin-top: var(--header-h); }
   margin-top: 3px;
 }
 
+/* 会社ロゴ画像（ヘッダー/フッター共通）
+   ※差し替えは assets/images/logo.png を上書きするだけ */
+.logo__img {
+  height: 34px;
+  width: auto;
+  display: block;
+  transition: filter 0.4s var(--ease);
+}
+/* 透過ヘッダー（ヒーロー上）・濃紺フッターでは白抜き表示、白ヘッダーでは原色表示 */
+.header .logo__img { filter: brightness(0) invert(1); }
+.header.is-scrolled .logo__img,
+.header.is-solid .logo__img { filter: none; }
+body.menu-open .header .logo__img { filter: brightness(0) invert(1); }
+.footer .logo__img { filter: brightness(0) invert(1); opacity: 0.95; }
+@media (max-width: 880px) {
+  .logo__img { height: 30px; }
+}
+
 /* グローバルナビ */
 .nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 30px); }
 .nav__link {
