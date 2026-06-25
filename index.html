@@ -4,60 +4,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>株式会社ミタックス｜水と空気を整え、暮らしと産業を支える。</title>
-<meta name="description" content="株式会社ミタックスは、1972年創業の総合設備工事会社です。給排水・衛生設備工事、空調・工場設備工事、リフォーム工事、排水管洗浄工事、イベント事業を通じて、地域の暮らしと産業を支えます。">
+<meta name="description" content="株式会社ミタックスは、1972年創業・東京都国分寺市の総合設備工事会社です。給排水・衛生設備工事、空調・工場設備工事、リフォーム工事、排水管洗浄工事、イベント事業を通じて、多摩地区の暮らしと産業を支えます。">
 <meta name="theme-color" content="#0a2540">
-
-<!-- OGP（SNSシェア用。画像は本番URLに差し替えてください） -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="株式会社ミタックス｜水と空気を整え、暮らしと産業を支える。">
-<meta property="og:description" content="1972年創業の総合設備工事会社。給排水・空調・リフォーム・排水管洗浄・イベント事業で、暮らしと産業を支えます。">
+<meta property="og:description" content="1972年創業・東京都国分寺市の総合設備工事会社。給排水・空調・リフォーム・排水管洗浄・イベント事業で、暮らしと産業を支えます。">
 <meta property="og:image" content="assets/images/hero.svg">
-
 <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-
-<!-- Webフォント -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- ============================================================
-     ヘッダー / グローバルナビ
-     ============================================================ -->
 <header class="header">
   <div class="header__inner">
-    <a href="#top" class="logo" aria-label="株式会社ミタックス トップへ">
+    <a href="index.html" class="logo" aria-label="株式会社ミタックス トップへ">
       <img class="logo__img" src="assets/images/logo.png" alt="株式会社ミタックス" width="256" height="91">
     </a>
-
     <nav class="nav" aria-label="メインナビゲーション">
-      <a href="#about" class="nav__link">会社案内</a>
-      <a href="#business" class="nav__link">事業内容</a>
-      <a href="#works" class="nav__link">施工実績</a>
-      <a href="#reasons" class="nav__link">選ばれる理由</a>
+      <a href="company.html" class="nav__link">会社案内</a>
+      <a href="business.html" class="nav__link">事業内容</a>
+      <a href="works.html" class="nav__link">施工実績</a>
       <a href="recruit.html" class="nav__link">採用情報</a>
-      <a href="#contact" class="nav__cta">お問い合わせ</a>
+      <a href="contact.html" class="nav__cta">お問い合わせ</a>
     </nav>
-
-    <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <main>
 
-<!-- ============================================================
-     01. TOP / ヒーロー
-     ============================================================ -->
+<!-- ヒーロー -->
 <section class="hero" id="top">
-  <div class="hero__bg">
-    <!-- ▼写真差し替え：assets/images/hero.svg を実写真に置き換え -->
-    <img src="assets/images/hero.svg" alt="">
-  </div>
+  <div class="hero__bg"><img src="assets/images/hero.svg" alt=""></div>
   <div class="hero__inner">
     <div class="container">
       <div class="hero__copy">
@@ -67,55 +48,41 @@
           <span class="br">暮らしと産業を<span class="hl">支える。</span></span>
         </h1>
         <p class="hero__lead">
-          1972年の創業以来、給排水・空調設備のスペシャリストとして、
+          1972年の創業以来、東京・多摩地区の給排水・空調設備のスペシャリストとして、
           地域の暮らしと産業の現場を足元から支えてきました。
           確かな技術と誠実な対応で、止まることのないインフラをつくり続けます。
         </p>
         <div class="hero__actions btn-row">
-          <a href="#business" class="btn btn--white">
-            事業内容を見る
+          <a href="business.html" class="btn btn--white">事業内容を見る
             <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
-          <a href="recruit.html" class="btn btn--blue">
-            採用情報
+          <a href="recruit.html" class="btn btn--blue">採用情報
             <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="hero__scroll" aria-hidden="true">
-    <span>SCROLL</span>
-    <span class="line"></span>
-  </div>
-
+  <div class="hero__scroll" aria-hidden="true"><span>SCROLL</span><span class="line"></span></div>
   <div class="hero__index" aria-hidden="true">
     <ul>
-      <li>給排水・衛生設備工事</li>
-      <li>空調・工場設備工事</li>
-      <li>リフォーム工事</li>
-      <li>排水管洗浄工事</li>
-      <li>イベント事業</li>
+      <li><a href="business.html#suido" style="color:inherit;">給排水・衛生設備工事</a></li>
+      <li><a href="business.html#kucho" style="color:inherit;">空調・工場設備工事</a></li>
+      <li><a href="business.html#reform" style="color:inherit;">リフォーム工事</a></li>
+      <li><a href="business.html#senjo" style="color:inherit;">排水管洗浄工事</a></li>
+      <li><a href="business.html#event" style="color:inherit;">イベント事業</a></li>
     </ul>
   </div>
 </section>
 
-<!-- ============================================================
-     02. 会社案内 / About
-     ============================================================ -->
-<section class="section" id="about">
+<!-- 会社案内 ティーザー -->
+<section class="section">
   <div class="container">
     <div class="about-grid">
       <div class="about-figure reveal-left">
-        <!-- ▼写真差し替え：assets/images/about.svg -->
         <img src="assets/images/about.svg" alt="ミタックスの施工チーム">
-        <div class="about-figure__badge">
-          <div class="num">1972</div>
-          <div class="label">創業 / 50年以上の歩み</div>
-        </div>
+        <div class="about-figure__badge"><div class="num">1972</div><div class="label">創業 / 50年以上の歩み</div></div>
       </div>
-
       <div class="about-body reveal-right">
         <div class="sec-head">
           <span class="sec-head__en">About Us</span>
@@ -123,567 +90,174 @@
         </div>
         <p>
           株式会社ミタックスは、1972年の創業以来、給排水・衛生設備および空調・工場設備の
-          設計・施工を軸に成長してきた総合設備工事会社です。
-          蛇口をひねれば水が出る。スイッチひとつで快適な空気が流れる。
-          そんな「当たり前」を絶やさないために、私たちは現場の最前線で技術を磨き続けてきました。
+          設計・施工を軸に成長してきた、東京・多摩地区の総合設備工事会社です。
+          積水ハウス様をはじめとする大手企業との継続的なお取引が、確かな施工品質を物語っています。
         </p>
         <p>
-          住宅から大規模施設、工場のプラント設備まで。
-          「水」と「空気」に関わるあらゆる課題に、設計から施工・保守までワンストップで応えます。
-          地域に根ざし、確かな実績を積み重ねてきた信頼を、次の50年へつなげていきます。
+          「自分がして欲しいことを人に施す」を理念に、見えない部分にこそ手を抜かない誠実な仕事を。
+          住宅から工場、メンテナンスまで、水と空気に関わる課題にワンストップでお応えします。
         </p>
-
-        <!-- 会社概要テーブル（内容は実情報に差し替えてください） -->
-        <table class="profile-table" aria-label="会社概要">
-          <tbody>
-            <tr><th>会社名</th><td>株式会社ミタックス</td></tr>
-            <tr><th>設立</th><td>1972年（昭和47年）</td></tr>
-            <tr><th>代表者</th><td>代表取締役　〇〇 〇〇</td></tr>
-            <tr><th>売上高</th><td>15億円</td></tr>
-            <tr><th>従業員数</th><td>45名</td></tr>
-            <tr><th>事業内容</th><td>給排水・衛生設備工事／空調・工場設備工事／リフォーム工事／排水管洗浄工事／イベント事業</td></tr>
-            <tr><th>所在地</th><td>〒000-0000　〇〇県〇〇市〇〇町0-0-0</td></tr>
-            <tr><th>許認可</th><td>建設業許可（〇〇県知事許可（般-00）第00000号）　ほか</td></tr>
-          </tbody>
-        </table>
+        <div class="btn-row mt-m">
+          <a href="company.html" class="btn btn--ghost">会社案内を見る
+            <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     03. 事業内容 / Business
-     ============================================================ -->
-<section class="section section--sky" id="business">
+<!-- 事業内容 ティーザー -->
+<section class="section section--sky">
   <div class="container">
     <div class="sec-head sec-head--center reveal">
       <span class="sec-head__en">Business</span>
       <h2 class="sec-head__title">事業内容</h2>
-      <p class="sec-head__lead">「水」と「空気」を軸に、暮らしと産業を支える5つの事業。
-        設備の新設から更新・メンテナンスまで、一貫して対応します。</p>
+      <p class="sec-head__lead">「水」と「空気」を軸に、暮らしと産業を支える5つの事業。</p>
     </div>
-
     <div class="grid grid--3">
-
-      <!-- 01 給排水・衛生設備工事 -->
-      <article class="card biz-card reveal d1">
-        <div class="biz-card__media">
-          <img src="assets/images/biz-1.svg" alt="給排水・衛生設備工事">
-          <span class="biz-card__no">01</span>
-          <span class="biz-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s5.5 6 5.5 10a5.5 5.5 0 0 1-11 0C6.5 9 12 3 12 3Z"/><path d="M9.5 13a2.5 2.5 0 0 0 2.5 2.5"/></svg>
-          </span>
-        </div>
-        <div class="biz-card__body">
-          <h3 class="biz-card__title"><span class="en">Water &amp; Sanitary</span>給排水・衛生設備工事</h3>
-          <p class="biz-card__text">ビル・住宅・各種施設の給水／給湯／排水・衛生設備の設計・施工。生活と事業に欠かせない「水まわり」を、衛生的かつ確実に整えます。</p>
-          <a href="#contact" class="link-arrow biz-card__more">この事業を相談する
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- 02 空調・工場設備工事 -->
-      <article class="card biz-card reveal d2">
-        <div class="biz-card__media">
-          <img src="assets/images/biz-2.svg" alt="空調・工場設備工事">
-          <span class="biz-card__no">02</span>
-          <span class="biz-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h11a3 3 0 1 0-3-3"/><path d="M3 12h15a3 3 0 1 1-3 3"/><path d="M3 16h9a2.5 2.5 0 1 1-2.5 2.5"/></svg>
-          </span>
-        </div>
-        <div class="biz-card__body">
-          <h3 class="biz-card__title"><span class="en">Air &amp; Factory</span>空調・工場設備工事</h3>
-          <p class="biz-card__text">オフィス・施設の空調設備から、工場の生産設備配管・ユーティリティ設備まで。快適で効率的な「空気と環境」を、産業の現場に届けます。</p>
-          <a href="#contact" class="link-arrow biz-card__more">この事業を相談する
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- 03 リフォーム工事 -->
-      <article class="card biz-card reveal d3">
-        <div class="biz-card__media">
-          <img src="assets/images/biz-3.svg" alt="リフォーム工事">
-          <span class="biz-card__no">03</span>
-          <span class="biz-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 9.5V20h14V9.5"/><path d="M10 20v-5h4v5"/></svg>
-          </span>
-        </div>
-        <div class="biz-card__body">
-          <h3 class="biz-card__title"><span class="en">Reform</span>リフォーム工事</h3>
-          <p class="biz-card__text">キッチン・浴室・トイレなどの水まわりリフォームから内装・設備更新まで。設備のプロならではの視点で、暮らしの質を高める提案を行います。</p>
-          <a href="#contact" class="link-arrow biz-card__more">この事業を相談する
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- 04 排水管洗浄工事 -->
-      <article class="card biz-card reveal d1">
-        <div class="biz-card__media">
-          <img src="assets/images/biz-5.svg" alt="排水管洗浄工事">
-          <span class="biz-card__no">04</span>
-          <span class="biz-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h11a3 3 0 0 1 3 3v3"/><path d="M4 7v10"/><path d="M18 16v2M21 15v3M15 17v2"/></svg>
-          </span>
-        </div>
-        <div class="biz-card__body">
-          <h3 class="biz-card__title"><span class="en">Pipe Cleaning</span>排水管洗浄工事</h3>
-          <p class="biz-card__text">高圧洗浄による排水管・排水設備のメンテナンス。定期的な洗浄で詰まりや悪臭を未然に防ぎ、建物の衛生環境と資産価値を守ります。</p>
-          <a href="#contact" class="link-arrow biz-card__more">この事業を相談する
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- 05 イベント事業 -->
-      <article class="card biz-card reveal d2">
-        <div class="biz-card__media">
-          <img src="assets/images/biz-4.svg" alt="イベント事業">
-          <span class="biz-card__no">05</span>
-          <span class="biz-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4L7.5 16.8l.9-5L4.8 8.3l5-.7z"/></svg>
-          </span>
-        </div>
-        <div class="biz-card__body">
-          <h3 class="biz-card__title"><span class="en">Event</span>イベント事業</h3>
-          <p class="biz-card__text">仮設の給排水・空調設備など、イベント・催事現場の設備サポート。培ってきた設備技術を活かし、人が集まる場の快適と安全を支えます。</p>
-          <a href="#contact" class="link-arrow biz-card__more">この事業を相談する
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- お問い合わせ誘導カード -->
-      <article class="card biz-card reveal d3" style="background:var(--grad-navy); color:#fff; justify-content:center;">
-        <div class="biz-card__body" style="text-align:center; gap:18px;">
-          <h3 class="biz-card__title" style="color:#fff;">どの事業もまずは<br>ご相談ください</h3>
-          <p class="biz-card__text" style="color:#bcd6e8;">「こんなこと頼める？」も歓迎です。水と空気に関わる課題は、ミタックスへ。</p>
-          <div style="margin-top:8px;">
-            <a href="#contact" class="btn btn--white">お問い合わせ
-              <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     04. 施工実績 / Works
-     ============================================================ -->
-<section class="section" id="works">
-  <div class="container">
-    <div class="sec-head sec-head--center reveal">
-      <span class="sec-head__en">Works</span>
-      <h2 class="sec-head__title">施工実績</h2>
-      <p class="sec-head__lead">公共施設から商業ビル、工場、住宅まで。
-        分野を問わず積み重ねてきた施工の一部をご紹介します。</p>
-    </div>
-
-    <div class="works-grid">
-      <!-- ▼1件ずつ、写真(img)・カテゴリ・タイトル・メタを差し替えてください -->
-      <a href="#contact" class="work reveal d1">
-        <img src="assets/images/work-1.svg" alt="施工実績写真">
-        <div class="work__overlay">
-          <span class="work__cat">給排水・衛生設備</span>
-          <span class="work__title">〇〇ビル 給排水設備更新工事</span>
-          <span class="work__meta">2024年 ／ 〇〇県〇〇市</span>
-        </div>
+      <a href="business.html#suido" class="nav-card reveal d1">
+        <div class="nav-card__media"><img src="assets/images/biz-1.svg" alt="給排水・衛生設備工事"></div>
+        <div class="nav-card__body"><span class="nav-card__en">Water &amp; Sanitary</span><h3 class="nav-card__title">給排水・衛生設備工事</h3><p class="nav-card__text">新築戸建・集合住宅を中心に、年間約300棟の給排水設備を設計・施工。</p><span class="nav-card__more">詳しく見る<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
       </a>
-      <a href="#contact" class="work reveal d2">
-        <img src="assets/images/work-2.svg" alt="施工実績写真">
-        <div class="work__overlay">
-          <span class="work__cat">空調・工場設備</span>
-          <span class="work__title">〇〇工場 空調・配管設備工事</span>
-          <span class="work__meta">2024年 ／ 〇〇県〇〇市</span>
-        </div>
+      <a href="business.html#kucho" class="nav-card reveal d2">
+        <div class="nav-card__media"><img src="assets/images/biz-2.svg" alt="空調・工場設備工事"></div>
+        <div class="nav-card__body"><span class="nav-card__en">Air &amp; Factory</span><h3 class="nav-card__title">空調・工場設備工事</h3><p class="nav-card__text">食品工場などプラントの空調・配管・ユーティリティ設備に対応。</p><span class="nav-card__more">詳しく見る<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
       </a>
-      <a href="#contact" class="work reveal d3">
-        <img src="assets/images/work-3.svg" alt="施工実績写真">
-        <div class="work__overlay">
-          <span class="work__cat">リフォーム</span>
-          <span class="work__title">〇〇邸 水まわりリフォーム工事</span>
-          <span class="work__meta">2023年 ／ 〇〇県〇〇市</span>
-        </div>
+      <a href="business.html#reform" class="nav-card reveal d3">
+        <div class="nav-card__media"><img src="assets/images/biz-3.svg" alt="リフォーム工事"></div>
+        <div class="nav-card__body"><span class="nav-card__en">Reform</span><h3 class="nav-card__title">リフォーム工事</h3><p class="nav-card__text">水まわりを中心としたリフォーム。設備のプロの視点でご提案。</p><span class="nav-card__more">詳しく見る<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
       </a>
-      <a href="#contact" class="work reveal d1">
-        <img src="assets/images/work-4.svg" alt="施工実績写真">
-        <div class="work__overlay">
-          <span class="work__cat">排水管洗浄</span>
-          <span class="work__title">〇〇マンション 排水管高圧洗浄</span>
-          <span class="work__meta">2024年 ／ 〇〇県〇〇市</span>
-        </div>
+      <a href="business.html#senjo" class="nav-card reveal d1">
+        <div class="nav-card__media"><img src="assets/images/biz-5.svg" alt="排水管洗浄工事"></div>
+        <div class="nav-card__body"><span class="nav-card__en">Pipe Cleaning</span><h3 class="nav-card__title">排水管洗浄工事</h3><p class="nav-card__text">高圧洗浄による排水管メンテナンス。詰まり・悪臭を未然に防止。</p><span class="nav-card__more">詳しく見る<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
       </a>
-      <a href="#contact" class="work reveal d2">
-        <img src="assets/images/work-5.svg" alt="施工実績写真">
-        <div class="work__overlay">
-          <span class="work__cat">工場設備</span>
-          <span class="work__title">〇〇製作所 生産設備配管工事</span>
-          <span class="work__meta">2023年 ／ 〇〇県〇〇市</span>
-        </div>
+      <a href="business.html#event" class="nav-card reveal d2">
+        <div class="nav-card__media"><img src="assets/images/biz-4.svg" alt="イベント事業"></div>
+        <div class="nav-card__body"><span class="nav-card__en">Event</span><h3 class="nav-card__title">イベント事業</h3><p class="nav-card__text">地鎮祭・竣工セレモニーの企画・運営を、準備から当日までサポート。</p><span class="nav-card__more">詳しく見る<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
       </a>
-      <a href="#contact" class="work reveal d3">
-        <img src="assets/images/work-6.svg" alt="施工実績写真">
-        <div class="work__overlay">
-          <span class="work__cat">イベント</span>
-          <span class="work__title">〇〇フェス 仮設設備サポート</span>
-          <span class="work__meta">2024年 ／ 〇〇県〇〇市</span>
+      <a href="contact.html" class="nav-card reveal d3" style="background:var(--grad-navy);">
+        <div class="nav-card__body" style="justify-content:center; text-align:center; gap:14px;">
+          <h3 class="nav-card__title" style="color:#fff;">まずは<br>ご相談ください</h3>
+          <p class="nav-card__text" style="color:#bcd6e8;">水と空気に関わる課題は、<br>規模を問わずミタックスへ。</p>
+          <span class="nav-card__more" style="color:#fff; justify-content:center;">お問い合わせ<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
         </div>
-      </a>
-    </div>
-
-    <div class="btn-row btn-row--center mt-l reveal">
-      <a href="#contact" class="btn btn--ghost">実績についてお問い合わせ
-        <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     05. 選ばれる理由 / Reasons
-     ============================================================ -->
-<section class="section section--paper" id="reasons">
+<!-- 選ばれる理由 -->
+<section class="section">
   <div class="container">
     <div class="sec-head sec-head--center reveal">
       <span class="sec-head__en">Why Mitax</span>
       <h2 class="sec-head__title">選ばれる理由</h2>
-      <p class="sec-head__lead">数ある設備会社の中で、ミタックスが取引先・地域から選ばれ続ける4つの理由。</p>
+      <p class="sec-head__lead">大手企業から地域のお客様まで、ミタックスが選ばれ続ける理由。</p>
     </div>
-
     <div class="grid grid--4">
-      <div class="reason-card reveal d1">
-        <span class="reason-card__no">REASON 01</span>
-        <span class="reason-card__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 14.5L8 22l4-2 4 2-1-7.5"/></svg>
-        </span>
-        <h3 class="reason-card__title">創業50余年の<br>実績と信頼</h3>
-        <p class="reason-card__text">1972年の創業以来、半世紀にわたり地域のインフラを支えてきた確かな実績。世代を超えて選ばれ続ける信頼が、最大の強みです。</p>
-      </div>
-
-      <div class="reason-card reveal d2">
-        <span class="reason-card__no">REASON 02</span>
-        <span class="reason-card__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3s3.5 4 3.5 6.5a3.5 3.5 0 0 1-7 0C5.5 7 9 3 9 3Z"/><path d="M14 21a4 4 0 0 0 4-4c0-1.6 1.5-3 1.5-3"/><path d="M14 16h5"/></svg>
-        </span>
-        <h3 class="reason-card__title">「水」と「空気」を<br>一社で担う総合力</h3>
-        <p class="reason-card__text">給排水から空調まで、本来は別々の専門領域をワンストップで対応。窓口が一つにまとまることで、調整の手間とコストを大きく削減します。</p>
-      </div>
-
-      <div class="reason-card reveal d3">
-        <span class="reason-card__no">REASON 03</span>
-        <span class="reason-card__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg>
-        </span>
-        <h3 class="reason-card__title">設計から施工・保守<br>までの一貫体制</h3>
-        <p class="reason-card__text">自社の有資格者が設計・施工・アフターまで一貫して担当。責任の所在が明確で、長く付き合えるパートナーとして品質を担保します。</p>
-      </div>
-
-      <div class="reason-card reveal d4">
-        <span class="reason-card__no">REASON 04</span>
-        <span class="reason-card__icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
-        </span>
-        <h3 class="reason-card__title">緊急対応・メンテ<br>ナンスの安心</h3>
-        <p class="reason-card__text">水漏れ・設備トラブルにも迅速に対応。施工して終わりではなく、定期メンテナンスと緊急時のフォロー体制で日常の安心を支えます。</p>
-      </div>
+      <div class="reason-card reveal d1"><span class="reason-card__no">REASON 01</span><span class="reason-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 14.5L8 22l4-2 4 2-1-7.5"/></svg></span><h3 class="reason-card__title">創業50余年の<br>実績と信頼</h3><p class="reason-card__text">半世紀にわたり地域のインフラを支えてきた実績。世代を超えて選ばれ続ける信頼が強みです。</p></div>
+      <div class="reason-card reveal d2"><span class="reason-card__no">REASON 02</span><span class="reason-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21v-5h6v5"/></svg></span><h3 class="reason-card__title">大手企業との<br>継続取引</h3><p class="reason-card__text">積水ハウス様や食品メーカー様など、品質に厳しい大手との長期取引が品質の裏付けです。</p></div>
+      <div class="reason-card reveal d3"><span class="reason-card__no">REASON 03</span><span class="reason-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3s3.5 4 3.5 6.5a3.5 3.5 0 0 1-7 0C5.5 7 9 3 9 3Z"/><path d="M14 21a4 4 0 0 0 4-4c0-1.6 1.5-3 1.5-3"/><path d="M14 16h5"/></svg></span><h3 class="reason-card__title">「水」と「空気」<br>の総合力</h3><p class="reason-card__text">給排水から空調・リフォーム・洗浄までワンストップ。調整の手間とコストを削減します。</p></div>
+      <div class="reason-card reveal d4"><span class="reason-card__no">REASON 04</span><span class="reason-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></span><h3 class="reason-card__title">地域密着の<br>安心対応</h3><p class="reason-card__text">多摩地区を拠点に、緊急のトラブルにも迅速対応。メンテナンスまで長くお付き合いします。</p></div>
     </div>
+    <div class="btn-row btn-row--center mt-l reveal"><a href="company.html#reasons" class="btn btn--ghost">会社の強みを詳しく見る<svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
   </div>
 </section>
 
-<!-- ============================================================
-     06. 数字で見るミタックス / Numbers
-     ============================================================ -->
-<section class="section section--navy" id="numbers">
+<!-- 数字 -->
+<section class="section section--navy">
   <div class="container">
     <div class="sec-head sec-head--center reveal">
       <span class="sec-head__en">By the Numbers</span>
       <h2 class="sec-head__title">数字で見るミタックス</h2>
-      <p class="sec-head__lead">私たちの歩みと規模を、数字でご紹介します。</p>
     </div>
-
     <div class="stats-grid">
-      <div class="stat reveal d1">
-        <div class="stat__num">1972</div>
-        <div class="stat__label">創業年</div>
-        <div class="stat__en">Established</div>
-      </div>
-      <div class="stat reveal d2">
-        <div class="stat__num"><span data-count="15" data-decimals="0">0</span><span class="unit">億円</span></div>
-        <div class="stat__label">年間売上高</div>
-        <div class="stat__en">Annual Sales</div>
-      </div>
-      <div class="stat reveal d3">
-        <div class="stat__num"><span data-count="45" data-decimals="0">0</span><span class="unit">名</span></div>
-        <div class="stat__label">従業員数</div>
-        <div class="stat__en">Employees</div>
-      </div>
-      <div class="stat reveal d4">
-        <div class="stat__num"><span data-count="5" data-decimals="0">0</span><span class="unit">領域</span></div>
-        <div class="stat__label">事業領域</div>
-        <div class="stat__en">Business Fields</div>
-      </div>
+      <div class="stat reveal d1"><div class="stat__num">1972</div><div class="stat__label">創業年</div><div class="stat__en">Established</div></div>
+      <div class="stat reveal d2"><div class="stat__num"><span data-count="15.4" data-decimals="1">0</span><span class="unit">億円</span></div><div class="stat__label">売上高（2024年1月期）</div><div class="stat__en">Annual Sales</div></div>
+      <div class="stat reveal d3"><div class="stat__num"><span data-count="45">0</span><span class="unit">名</span></div><div class="stat__label">従業員数</div><div class="stat__en">Employees</div></div>
+      <div class="stat reveal d4"><div class="stat__num"><span class="unit" style="font-size:.42em">約</span><span data-count="300">0</span><span class="unit">棟</span></div><div class="stat__label">年間給排水施工（新築）</div><div class="stat__en">Annual Projects</div></div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     07. 社員インタビュー / Interview（抜粋）
-     ============================================================ -->
-<section class="section" id="interview">
+<!-- 施工実績 ティーザー -->
+<section class="section section--paper">
   <div class="container">
     <div class="sec-head sec-head--center reveal">
-      <span class="sec-head__en">Interview</span>
-      <h2 class="sec-head__title">社員インタビュー</h2>
-      <p class="sec-head__lead">ミタックスを支えるのは「人」。現場で活躍する社員の声をご紹介します。</p>
+      <span class="sec-head__en">Works</span>
+      <h2 class="sec-head__title">施工実績</h2>
+      <p class="sec-head__lead">分野を問わず積み重ねてきた施工事例の一部をご紹介します。</p>
     </div>
-
-    <div class="interview-grid">
-      <article class="interview reveal d1">
-        <div class="interview__media">
-          <img src="assets/images/person-1.svg" alt="社員写真">
-          <span class="interview__cat">給排水設備 / 施工管理</span>
-        </div>
-        <div class="interview__body">
-          <p class="interview__catch">「水を止めない」その責任が、やりがいになる。</p>
-          <p class="interview__person"><strong>T.S</strong>2015年入社 / 施工管理</p>
-          <a href="recruit.html#interview" class="link-arrow interview__more">インタビューを読む
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <article class="interview reveal d2">
-        <div class="interview__media">
-          <img src="assets/images/person-2.svg" alt="社員写真">
-          <span class="interview__cat">空調設備 / 技術職</span>
-        </div>
-        <div class="interview__body">
-          <p class="interview__catch">未経験から、空気を整えるプロへ。</p>
-          <p class="interview__person"><strong>K.M</strong>2019年入社 / 空調技術</p>
-          <a href="recruit.html#interview" class="link-arrow interview__more">インタビューを読む
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <article class="interview reveal d3">
-        <div class="interview__media">
-          <img src="assets/images/person-3.svg" alt="社員写真">
-          <span class="interview__cat">営業 / 工事提案</span>
-        </div>
-        <div class="interview__body">
-          <p class="interview__catch">お客様の「困った」に、いちばん近い存在で。</p>
-          <p class="interview__person"><strong>A.Y</strong>2017年入社 / 営業</p>
-          <a href="recruit.html#interview" class="link-arrow interview__more">インタビューを読む
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </article>
+    <div class="works-grid">
+      <a href="works.html" class="work reveal d1"><img src="assets/images/work-1.svg" alt="集合住宅 給排水設備更新工事"><div class="work__overlay"><span class="work__cat">給排水・衛生設備</span><span class="work__title">集合住宅 給排水設備更新工事</span><span class="work__meta">RC造・約40戸 ／ 多摩地区</span></div></a>
+      <a href="works.html" class="work reveal d2"><img src="assets/images/work-2.svg" alt="食品工場 空調・配管設備工事"><div class="work__overlay"><span class="work__cat">空調・工場設備</span><span class="work__title">食品工場 空調・配管設備工事</span><span class="work__meta">食品製造工場 ／ 区画施工</span></div></a>
+      <a href="works.html" class="work reveal d3"><img src="assets/images/work-3.svg" alt="戸建住宅 水まわりリフォーム"><div class="work__overlay"><span class="work__cat">リフォーム</span><span class="work__title">戸建住宅 水まわりリフォーム</span><span class="work__meta">キッチン・浴室・洗面・トイレ</span></div></a>
     </div>
+    <div class="btn-row btn-row--center mt-l reveal"><a href="works.html" class="btn btn--ghost">施工実績をすべて見る<svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
   </div>
 </section>
 
-<!-- ============================================================
-     08. 採用情報 / Recruit（誘導バンド）
-     ============================================================ -->
-<section class="section cta-band" id="recruit">
-  <div class="cta-band__bg">
-    <img src="assets/images/recruit-life.svg" alt="">
-  </div>
+<!-- 採用 CTA -->
+<section class="section cta-band">
+  <div class="cta-band__bg"><img src="assets/images/recruit-life.svg" alt=""></div>
   <div class="container">
     <div class="reveal">
       <span class="sec-head__en" style="justify-content:center; color:var(--blue-300);">Recruit</span>
       <h2 class="cta-band__title mt-s">あなたの手で、<br><span class="accent">「当たり前」をつくる</span>仕事を。</h2>
-      <p class="cta-band__lead">
-        資格取得の支援、未経験からの育成、長く働ける環境づくり。
-        ミタックスは、人を大切にしながら成長できる会社です。
-        私たちと一緒に、水と空気の未来を支えませんか。
-      </p>
-      <div class="btn-row btn-row--center">
-        <a href="recruit.html" class="btn btn--white btn--lg">採用情報を詳しく見る
-          <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-      </div>
+      <p class="cta-band__lead">未経験歓迎・資格取得支援・年間休日121日。平均勤続10年以上、女性も活躍する職場です。私たちと一緒に、水と空気の未来を支えませんか。</p>
+      <div class="btn-row btn-row--center"><a href="recruit.html" class="btn btn--white btn--lg">採用情報を詳しく見る<svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     09. 代表メッセージ / Message
-     ============================================================ -->
-<section class="section section--paper" id="message">
-  <div class="container">
-    <div class="sec-head sec-head--center reveal">
-      <span class="sec-head__en">Message</span>
-      <h2 class="sec-head__title">代表メッセージ</h2>
-    </div>
-
-    <div class="message-grid">
-      <div class="message-figure reveal-left">
-        <!-- ▼写真差し替え：assets/images/message.svg（代表者写真・縦長） -->
-        <img src="assets/images/message.svg" alt="代表取締役">
-      </div>
-      <div class="message-body reveal-right">
-        <p class="lead">水と空気を整えることは、<br>人の暮らしと産業の根っこを支えること。</p>
-        <p>
-          私たちミタックスは、1972年の創業以来、給排水・空調設備という「生活と産業の土台」を支える仕事に
-          一筋に取り組んでまいりました。普段は目に触れにくい設備だからこそ、止まったときの影響は計り知れません。
-          だからこそ私たちは、見えないところにこそ手を抜かない誠実な仕事を貫いてきました。
-        </p>
-        <p>
-          時代が変わっても、「水と空気を整え、暮らしと産業を支える」という使命は変わりません。
-          確かな技術を次の世代へ受け継ぎ、お客様、地域、そして共に働く仲間とともに、
-          これからも信頼される企業であり続けます。
-        </p>
-        <div class="message-sign">
-          <span class="role">株式会社ミタックス　代表取締役</span>
-          <span class="name">〇〇 〇〇</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     10. お問い合わせ / Contact
-     ============================================================ -->
-<section class="section" id="contact">
-  <div class="container">
+<!-- お問い合わせ CTA -->
+<section class="section">
+  <div class="container container--narrow text-center">
     <div class="sec-head sec-head--center reveal">
       <span class="sec-head__en">Contact</span>
       <h2 class="sec-head__title">お問い合わせ</h2>
-      <p class="sec-head__lead">工事のご相談・お見積り、採用に関するお問い合わせなど、お気軽にご連絡ください。</p>
+      <p class="sec-head__lead">工事のご相談・お見積り、採用に関するお問い合わせなど、お気軽にご連絡ください。<br>現地調査・お見積りは無料です。</p>
     </div>
-
-    <div class="contact-grid">
-      <aside class="contact-aside reveal-left">
-        <h3>お電話でのお問い合わせ</h3>
-        <p>受付時間：平日 8:00〜17:30<br>（土・日・祝日を除く）</p>
-        <div class="contact-info">
-          <div class="contact-info__item">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
-            <div><div class="label">TEL</div><div class="value tel">000-000-0000</div></div>
-          </div>
-          <div class="contact-info__item">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
-            <div><div class="label">E-MAIL</div><div class="value">info@example.co.jp</div></div>
-          </div>
-          <div class="contact-info__item">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-            <div><div class="label">所在地</div><div class="value" style="font-size:1rem;">〒000-0000　〇〇県〇〇市〇〇町0-0-0</div></div>
-          </div>
-        </div>
-      </aside>
-
-      <!-- お問い合わせフォーム（送信処理は別途設定） -->
-      <form class="form reveal-right" data-demo-form novalidate>
-        <div class="form__row two">
-          <div>
-            <label for="f-name">お名前 <span class="req">必須</span></label>
-            <input type="text" id="f-name" name="name" placeholder="例）三田 太郎" required>
-          </div>
-          <div>
-            <label for="f-company">会社名・団体名 <span class="opt">任意</span></label>
-            <input type="text" id="f-company" name="company" placeholder="例）〇〇株式会社">
-          </div>
-        </div>
-        <div class="form__row two">
-          <div>
-            <label for="f-email">メールアドレス <span class="req">必須</span></label>
-            <input type="email" id="f-email" name="email" placeholder="例）info@example.co.jp" required>
-          </div>
-          <div>
-            <label for="f-tel">電話番号 <span class="opt">任意</span></label>
-            <input type="tel" id="f-tel" name="tel" placeholder="例）000-000-0000">
-          </div>
-        </div>
-        <div class="form__row">
-          <label for="f-type">お問い合わせ種別 <span class="req">必須</span></label>
-          <select id="f-type" name="type" required>
-            <option value="">選択してください</option>
-            <option>給排水・衛生設備工事について</option>
-            <option>空調・工場設備工事について</option>
-            <option>リフォーム工事について</option>
-            <option>排水管洗浄について</option>
-            <option>イベント事業について</option>
-            <option>採用について</option>
-            <option>その他</option>
-          </select>
-        </div>
-        <div class="form__row">
-          <label for="f-message">お問い合わせ内容 <span class="req">必須</span></label>
-          <textarea id="f-message" name="message" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
-        </div>
-        <div class="form__row form__privacy">
-          <input type="checkbox" id="f-agree" name="agree" required>
-          <label for="f-agree" style="margin:0; font-weight:400;">
-            <a href="#">プライバシーポリシー</a>に同意の上、送信します。
-          </label>
-        </div>
-        <button type="submit" class="btn btn--blue btn--lg">
-          この内容で送信する
-          <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </button>
-        <p class="form__note">※ 通常2〜3営業日以内にご返信いたします。</p>
-      </form>
+    <div class="reveal" style="background:var(--paper); border:1px solid var(--line); border-radius:var(--radius-lg); padding:clamp(32px,5vw,52px);">
+      <div style="font-family:var(--font-en); font-size:clamp(2rem,5vw,3rem); font-weight:700; color:var(--navy-800); letter-spacing:.02em;">042-300-0880</div>
+      <p style="color:var(--ink-soft); margin-top:6px;">受付時間：平日 8:00〜17:30（土・日・祝を除く）</p>
+      <div class="btn-row btn-row--center mt-m"><a href="contact.html" class="btn btn--blue btn--lg">お問い合わせフォーム<svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
     </div>
   </div>
 </section>
 
 </main>
 
-<!-- ============================================================
-     フッター
-     ============================================================ -->
 <footer class="footer">
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <a href="#top" class="logo">
-          <img class="logo__img" src="assets/images/logo.png" alt="株式会社ミタックス" width="256" height="91">
-        </a>
+        <a href="index.html" class="logo"><img class="logo__img" src="assets/images/logo.png" alt="株式会社ミタックス" width="256" height="91"></a>
         <p>水と空気を整え、暮らしと産業を支える。<br>1972年創業の総合設備工事会社です。</p>
-        <p class="addr">〒000-0000　〇〇県〇〇市〇〇町0-0-0<br>TEL：000-000-0000</p>
+        <p class="addr">〒185-0002　東京都国分寺市東戸倉1-15-16<br>TEL：042-300-0880 ／ FAX：042-300-0884</p>
       </div>
-
-      <div class="footer__col">
-        <h4>Business</h4>
-        <ul>
-          <li><a href="#business">給排水・衛生設備工事</a></li>
-          <li><a href="#business">空調・工場設備工事</a></li>
-          <li><a href="#business">リフォーム工事</a></li>
-          <li><a href="#business">排水管洗浄工事</a></li>
-          <li><a href="#business">イベント事業</a></li>
-        </ul>
-      </div>
-
-      <div class="footer__col">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="#about">会社案内</a></li>
-          <li><a href="#reasons">選ばれる理由</a></li>
-          <li><a href="#numbers">数字で見るミタックス</a></li>
-          <li><a href="#message">代表メッセージ</a></li>
-          <li><a href="#works">施工実績</a></li>
-        </ul>
-      </div>
-
-      <div class="footer__col">
-        <h4>Recruit &amp; Contact</h4>
-        <ul>
-          <li><a href="recruit.html">採用情報</a></li>
-          <li><a href="recruit.html#interview">社員インタビュー</a></li>
-          <li><a href="recruit.html#requirements">募集要項</a></li>
-          <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-      </div>
+      <div class="footer__col"><h4>Business</h4><ul>
+        <li><a href="business.html#suido">給排水・衛生設備工事</a></li>
+        <li><a href="business.html#kucho">空調・工場設備工事</a></li>
+        <li><a href="business.html#reform">リフォーム工事</a></li>
+        <li><a href="business.html#senjo">排水管洗浄工事</a></li>
+        <li><a href="business.html#event">イベント事業</a></li>
+      </ul></div>
+      <div class="footer__col"><h4>Company</h4><ul>
+        <li><a href="company.html">会社案内</a></li>
+        <li><a href="company.html#message">代表メッセージ</a></li>
+        <li><a href="company.html#reasons">選ばれる理由</a></li>
+        <li><a href="works.html">施工実績</a></li>
+        <li><a href="company.html#access">アクセス</a></li>
+      </ul></div>
+      <div class="footer__col"><h4>Recruit &amp; Contact</h4><ul>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="recruit.html#interview">社員の声</a></li>
+        <li><a href="recruit.html#jobs">募集職種</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul></div>
     </div>
-
     <div class="footer__bottom">
       <span>© <span data-year>2026</span> MITAX CORPORATION. All rights reserved.</span>
       <span class="made">水と空気を整え、暮らしと産業を支える。</span>
@@ -691,11 +265,7 @@
   </div>
 </footer>
 
-<!-- ページトップ -->
-<a href="#top" class="pagetop" aria-label="ページの先頭へ戻る">
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-</a>
-
+<a href="#" class="pagetop" aria-label="ページの先頭へ戻る"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
 <script src="js/main.js"></script>
 </body>
 </html>
