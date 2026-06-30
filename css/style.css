@@ -1290,6 +1290,24 @@ body.menu-open .nav-toggle span:nth-child(3) { top: 23px; transform: rotate(-45d
 @media (max-width: 768px) { .subnav__grid { grid-template-columns: 1fr; } }
 
 /* -------------------------------------------------------------
+   20-d. 写真の表示位置調整（実写真の顔切れ防止）
+   ------------------------------------------------------------- */
+/* 縦写真をカード(横長)に入れても顔が見えるよう上寄せ */
+.nav-card__media img,
+.biz-card__media img,
+.wcard__media img,
+.work img,
+.svc__media img { object-position: center top; }
+/* ヒーロー／ページ上部は人物の顔が見える位置に（暗いオーバーレイ込み） */
+.hero__bg img,
+.page-hero__bg img { object-position: center 22%; }
+/* 社員ポートレート枠 */
+.interview__media img,
+.iv__media img { object-position: center 18%; }
+/* 代表メッセージ写真（横写真を縦枠にトリミング） */
+.message-figure img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center 28%; width: 100%; }
+
+/* -------------------------------------------------------------
    21. アクセシビリティ（モーション軽減）
    ------------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
